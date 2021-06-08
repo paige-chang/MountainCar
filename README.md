@@ -1,11 +1,11 @@
 # MountainCar
 
-This repository contains my project that solve a classical control problem. The environment is provided by the OpenAI Gym (MountainCar-v0). 
+This repository contains my project that solve a classical control problem using SARSA-Lambda reinforcement learning algorithm. 
 
 ![Output sample](mountaincar.gif)
 
 
-The goal of the MountainCar task is to drive up the mountain on the right. Since the car's engine is not strong enough to scale the mountain in a single pass, the only way to succeed is to learn to leverage the gravity, driving back and forth to build up momentum. For any given state (position and velocity) of the car, the agent is given the choice of driving left, driving right, or not using the engine at all. MountainCar-v0 defines "solving" as getting average reward of -110.0 over 100 consecutive trials.  The agent receives a negative reward at every step when the goal is not reached. 
+The goal of the MountainCar task is to drive up a car to the mountain hill on the right. As the car's engine is not strong enough to scale the mountain in a single pass, the only way for the agent to succeed is to learn how to leverage the gravity, driving back and forth to build up momentum. For any given moment of the car, the agent can choose driving left, driving right, or not using the engine at all. MountainCar-v0 in OpenAI Gym defines the target as getting average reward of -110.0 over 100 consecutive trials. 
 
-I implemented SARSALamda with function approximation that solved the problem within 300 episodes
+
 
