@@ -1,6 +1,6 @@
 # MountainCar
 
-This repository contains implementations of an algorithm that solve a classical control problem - mountain car. The environment is provided by the OpenAI Gym (MountainCar-v0). 
+This repository contains my project that solve a classical control problem. The environment is provided by the OpenAI Gym (MountainCar-v0). 
 
 ![Output sample](mountaincar.gif)
 
